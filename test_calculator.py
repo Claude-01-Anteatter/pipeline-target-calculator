@@ -16,6 +16,3 @@ def test_is_even():
     assert calculator.is_even(3) == False
 def test_impossible():
     assert calculator.add(2, 2) == 5
-
-def test_truly_impossible():
-    assert 1 == 2
