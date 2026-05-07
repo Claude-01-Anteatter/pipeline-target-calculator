@@ -13,9 +13,7 @@ def divide(a, b):
     return a / b
 
 def power(a, b):
-    # bug: using multiplication instead of exponentiation
-    return a * b
+    return a ** b
 
 def is_even(n):
-    # bug: off-by-one, returns True for odd numbers
-    return n % 2 == 1
+    return n % 2 == 0
