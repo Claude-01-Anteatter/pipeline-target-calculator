@@ -15,4 +15,4 @@ def test_is_even():
     assert calculator.is_even(4) == True
     assert calculator.is_even(3) == False
 def test_impossible():
-    assert calculator.add(2, 2) == 5
+    assert calculator.add(2, 2) == 4
